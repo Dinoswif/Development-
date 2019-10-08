@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>js drag and drop</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .dragzone,
+        .dropzone {
+            height: 400px;
+            width: 40%;
+            border: 2px solid blue;
+            float: left;
+            margin-top: 100px;
+            margin-left: 7%;
+        }
+    </style>
+    <script type="text/javascript" src="Logo.js"></script>
+</head>
+
+<body>
+    <div class="dragzone" ondragstart="dragStart(event)">
+
+        <img src="https://i.postimg.cc/cHfx89jC/wolfkaas.gif" id="dragelement">
+    </div>
+    <div class="dropzone" ondragover="allowDrop(event)" ondrop="drop(event)">
+
+    </div>
+
+
+
+</body></html>
